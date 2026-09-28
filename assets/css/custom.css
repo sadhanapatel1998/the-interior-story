@@ -39,15 +39,17 @@
 /************************************/	
 
 :root{
-	--primary-color			: #192324;
-	--secondery-color		: #F8F8F8;
-	--text-color			: #283132;
-	--accent-color			: #7C877F;
+	--primary-color			: #000;
+	--secondery-color		: #F5F2EB;
+	--text-color			: #222;
+	--theme-color			: #ed1c24;
+	--accent-color			: #C9A86A;
 	--white-color			: #FFFFFF;
 	--divider-color			: #EAF0EC;
 	--dark-divider-color	: #FFFFFF1A;
 	--error-color			: rgb(230, 87, 87);
 	--default-font			: "Hanken Grotesk", sans-serif;
+	--heading-font          : "TeX Gyre Termes", serif;
 }
 
 
@@ -57,7 +59,7 @@
 
 body{
 	font-family: var(--default-font);
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 400;
 	line-height: 1.6em;
 	background-color: var(--white-color);
@@ -79,6 +81,7 @@ h6{
 	font-weight: 700;
 	line-height: 1.1em;
 	color: var(--primary-color);
+	font-family: var(--heading-font );
 }
 
 figure{
@@ -235,7 +238,7 @@ body{
 	right: 0;
     width: 0;
     height: 106%;
-    background: var(--primary-color);
+    background: var(--theme-color);
     transform: skew(45deg);
     transition: all 0.4s ease-in-out;
     z-index: -1;
@@ -352,16 +355,17 @@ body{
 	margin-bottom: 40px;
 }
 
-.section-title h3{
-	display: inline-block;
-	position: relative;
-	font-size: 16px;
+.section-title h3 {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
     font-weight: 500;
-	line-height: 1.6em;
+    line-height: 1.6em;
     text-transform: capitalize;
     color: var(--accent-color);
-	padding-left: 35px;
-    margin-bottom: 20px;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    font-family: math;
 }
 
 .section-title h3::before{
@@ -386,17 +390,19 @@ body{
 	cursor: none;
 }
 
-.section-title h2{
-	font-size: 46px;
-	font-weight: 700;
-	letter-spacing: -0.02em;
-	margin-bottom: 0;
-	cursor: none;
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    margin-bottom: 0;
+    cursor: none;
 }
 
 .section-title h1 span,
 .section-title h2 span{
-	color: var(--accent-color);
+	color: #ed1c24;
+	font-style: italic;
+	  /* font-family: "Canela", serif; */
 }
 
 .section-title p{
@@ -456,7 +462,7 @@ header.main-header .header-sticky.active{
 }
 
 .navbar{
-	padding: 30px 0;
+	padding: 15px 0;
 	align-items: center;
 	border-bottom: 1px solid var(--dark-divider-color);
 }
@@ -470,6 +476,9 @@ header.main-header .header-sticky.active .navbar{
 	margin: 0;
 }
 
+.navbar-brand img{
+	    width: 160px;
+}
 .main-menu .nav-menu-wrapper{
 	flex: 1;
 	text-align: center;
@@ -488,7 +497,7 @@ header.main-header .header-sticky.active .navbar{
 
 .main-menu ul li a{
 	font-family: var(--accent-font);
-	font-size: 16px;
+font-size: 18px;
 	font-weight: 400;
 	padding: 15px 14px !important;
 	color: var(--white-color);
@@ -738,10 +747,10 @@ header.main-header .header-sticky.active .navbar{
 	padding: 0;
 }
 
-.hero.hero-slider-layout .hero-slide{
-	position: relative;
-    padding: 280px 0 250px;
-	min-height: 100vh;
+.hero.hero-slider-layout .hero-slide {
+    position: relative;
+    padding: 200px 0 150px;
+    min-height: 118vh;
 }
 
 .hero.hero-slider-layout .hero-slide::before{
@@ -752,7 +761,7 @@ header.main-header .header-sticky.active .navbar{
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(180deg, rgba(25, 35, 36, 0) 0%, rgba(25, 35, 36, 0.4) 80.94%);
+      background: linear-gradient(180deg, rgb(0 0 0 / 10%) 0%, rgb(0 0 0 / 13%) 80.94%);
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -768,9 +777,19 @@ header.main-header .header-sticky.active .navbar{
 
 .hero.hero-slider-layout .hero-slide .hero-slider-image img{
 	width: 100%;
-	height: 100%;
-	object-fit: cover;
+	height: 120%;
+	/* object-fit: cover; */
 }
+
+.hero-slider-layout,
+.hero-slider-layout .swiper,
+.hero-slider-layout .swiper-wrapper,
+.hero-slider-layout .swiper-slide,
+.hero-slide{
+    height:110vh;
+    min-height:750px;
+}
+
 
 .hero.hero-slider-layout .hero-pagination{
 	position: absolute;
@@ -846,10 +865,12 @@ header.main-header .header-sticky.active .navbar{
 	display: block;
 }
 
-.about-img-1 img{
-	width: 100%;
-	object-fit: cover;
-	aspect-ratio: 1 / 0.76;
+.about-img-1 img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 0.76;
+    border: 2px solid #ed1c24;
+    padding: 5px;
 }
 
 .about-img-2{
@@ -858,6 +879,8 @@ header.main-header .header-sticky.active .navbar{
 	max-width: 385px;
 	bottom: 0;
 	right: 0;
+	    border: 2px solid var(--accent-color);
+    padding: 5px;
 }
 
 .about-img-2 img{
@@ -877,7 +900,7 @@ header.main-header .header-sticky.active .navbar{
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--accent-color);
+    background-color: #ed1c24;
 	border: 6px solid var(--white-color);
 	transform: translate(-50%, -6px);
 	border-radius: 50%;
@@ -929,11 +952,12 @@ header.main-header .header-sticky.active .navbar{
 	background-color: var(--primary-color);
 }
 
-.feedback-counter h3{
-	font-size: 18px;
-	font-weight: 500;
-	text-transform: capitalize;
-	width: calc(100% - 75px);
+.feedback-counter h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    width: calc(100% - 75px);
+    font-family: math;
 }
 
 .about-us-content-body{
@@ -1044,9 +1068,10 @@ header.main-header .header-sticky.active .navbar{
 	width: calc(100% - 55px);
 }
 
-.about-contact-content h3{
-	font-size: 20px;
-	text-transform: capitalize;
+.about-contact-content h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: math;
 }
 
 .about-contact-content p{
@@ -1080,9 +1105,10 @@ header.main-header .header-sticky.active .navbar{
 
 .why-choose-item .icon-box{
 	position: relative;
-	width: 60px;
-	height: 60px;
-	background-color: var(--divider-color);
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #c9a86a;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -1115,7 +1141,7 @@ header.main-header .header-sticky.active .navbar{
 }
 
 .why-choose-item .icon-box img{
-	max-width: 24px;
+    max-width: 50px;
 	z-index: 1;
 	transition: all 0.3s ease-in-out;
 }
@@ -1128,12 +1154,12 @@ header.main-header .header-sticky.active .navbar{
 	width: calc(100% - 80px);
 }
 
-.why-choose-item-content h3{
-	font-size: 20px;
-	text-transform: capitalize;
-	margin-bottom: 10px;
+.why-choose-item-content h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: math;
 }
-
 .why-choose-item-content p{
 	color: var(--primary-color);
 	margin-bottom: 0;
@@ -4703,3 +4729,219 @@ header.main-header .header-sticky.active .navbar{
         max-width: 100%;
     }
 }
+
+
+/* =========================
+   THE INTERIOR STORY HERO
+========================= */
+/* 
+.tis-hero-wrap{
+    max-width:720px;
+    position:relative;
+    z-index:5;
+    padding:140px 0;
+} */
+
+.tis-small-label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#C9A86A;
+    letter-spacing:4px;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+.tis-label-dot{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:#E02424;
+}
+
+.tis-hero-heading {
+    font-family: "TeX Gyre Termes", serif;
+    font-size: 70px;
+    line-height: .95;
+    color: #ffffff;
+    margin-bottom: 28px;
+    font-weight: 500;
+}
+
+.tis-hero-heading span{
+    color:#C9A86A;
+}
+
+.tis-hero-wrap p{
+    color:#ffffff;
+    font-size:20px;
+    line-height:1.5;
+    /* max-width: 700px; */
+}
+
+.tis-chip-group{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin:35px 0;
+	/* max-width: 700px; */
+}
+
+.tis-chip-group span{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:11px 18px;
+    border-radius:50px;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(10px);
+    color:#ffffff;
+    transition:.4s;
+    font-size:17px;
+}
+.tis-chip-group span i{
+	font-size: 18px;
+}
+.tis-chip-group span:hover{
+    background:#C9A86A;
+    color:#111;
+}
+
+.tis-scroll-text{
+    margin-top:55px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#C9A86A;
+    letter-spacing:4px;
+    font-size:12px;
+}
+
+.tis-scroll-text span{
+    width:40px;
+    height:1px;
+    background:#C9A86A;
+}
+
+/* Floating Card */
+
+.tis-glass-card{
+    background:rgba(14,14,14,.72);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:36px;
+    /* max-width:360px; */
+    margin-left:auto;
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+}
+
+.tis-card-top{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:4px;
+    background:linear-gradient(90deg,#E02424,#C9A86A);
+}
+
+.tis-glass-card h2{
+    font-family:"TeX Gyre Termes", serif;
+    color:#C9A86A;
+    font-size:70px;
+    margin:0;
+}
+
+.tis-glass-card h4{
+    margin:15px 0;
+    color:#fff;
+}
+
+.tis-glass-card p{
+    color:#CFCFCF;
+}
+
+.tis-card-icons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+.tis-card-icons div{
+    text-align:center;
+}
+
+.tis-card-icons i{
+    color:#C9A86A;
+    font-size:20px;
+    margin-bottom:8px;
+}
+
+.tis-card-icons span{
+    display:block;
+    color:#ddd;
+    font-size:13px;
+}
+
+/* Overlay */
+
+.tis-hero-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        90deg,
+        rgba(6,6,6,.78)0%,
+        rgba(6,6,6,.52)45%,
+        rgba(6,6,6,.20)100%
+    );
+}
+
+.tis-hero-content{
+    padding:0;
+    position:relative;
+    z-index:2;
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+/* .tis-hero-wrap{
+padding:120px 0 60px;
+} */
+
+.tis-hero-heading{
+font-size:58px;
+}
+
+.tis-glass-card{
+margin:45px auto 0;
+}
+
+}
+
+@media(max-width:767px){
+
+.tis-hero-heading{
+font-size:42px;
+}
+
+.tis-chip-group span{
+font-size:12px;
+padding:9px 14px;
+}
+
+.tis-small-label{
+letter-spacing:2px;
+font-size:11px;
+}
+
+.tis-glass-card h2{
+font-size:52px;
+}
+
+}
+

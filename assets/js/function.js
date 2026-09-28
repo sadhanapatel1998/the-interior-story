@@ -47,6 +47,7 @@
 		speed: 1000,
 		spaceBetween: 0,
 		loop: true,
+		// autoplay: false,
 		autoplay: {
 			delay: 4000,
 		},
