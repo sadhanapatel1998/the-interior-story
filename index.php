@@ -38,23 +38,9 @@ include('include/data.php');
                                         <span><i class="fa-solid fa-sink"></i> Vanity</span>
                                         <span><i class="fa-solid fa-couch"></i> Premium Curtains</span>
                                     </div>
-
-                                    <!-- <div class="hero-btn wow fadeInUp" data-wow-delay="0.45s">
-
-                                        <a href="gallery.php" class="btn-default">
-                                            View Projects
-                                        </a>
-
-                                        <a href="contact.php" class="btn-default btn-highlighted">
-                                            Get In Touch
-                                        </a>
-
-                                    </div> -->
-
                                     <div class="tis-scroll-text wow fadeInUp" data-wow-delay="0.6s">
                                         <span></span> SCROLL
                                     </div>
-
                                 </div>
                             </div>
                             <!-- <div class="col-lg-4">
@@ -114,7 +100,7 @@ include('include/data.php');
                                         <a href="gallery.php" class="btn-default">
                                             View Projects
                                         </a>
-                                        <a href="contact.php" class="btn-default btn-highlighted">
+                                        <a href="contact-us.php" class="btn-default btn-highlighted">
                                             Get In Touch
                                         </a>
                                     </div>
@@ -185,7 +171,7 @@ include('include/data.php');
                             </div>
 
                             <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="about.php" class="btn-default">discover more</a>
+                                <a href="about-us.php" class="btn-default">discover more</a>
                             </div>
                         </div>
                         <div class="about-us-contact-list">
@@ -375,11 +361,11 @@ include('include/data.php');
 
             <?php endforeach; ?>
 
-            <div class="col-lg-12">
+            <!-- <div class="col-lg-12">
                 <div class="all-services-btn wow fadeInUp" data-wow-delay="0.6s">
                     <a href="gallery.php" class="btn-default">Explore Our Collection</a>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -387,321 +373,150 @@ include('include/data.php');
 </div>
 <!-- Our Services Section End -->
 
-<!-- Intro Video Section Start -->
-<div class="intro-video">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Intro Video Image Start -->
-                <div class="intro-video-box">
-                    <!-- Intro Image Start -->
-                    <div class="intro-video-image">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"
-                            data-cursor-text="Play">
-                            <figure class="image-anime">
-                                <img src="assets/images/intro-video-bg.jpg" alt="">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- Intro Image End -->
-
-                    <!-- Video Play Button Start -->
-                    <div class="video-play-button">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"
-                            data-cursor-text="Play">play</a>
-                    </div>
-                    <!-- Video Play Button End -->
-                </div>
-                <!-- Intro Video Btn End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Intro Video Section End -->
-
-<!-- Our Project Start -->
-<div class="our-project">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">latest project</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Creative projects that define<span> our
-                            style</span></h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Section Title Content Start -->
-                <div class="section-title-content">
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">Our portfolio showcases a diverse range of
-                        projects, from beautifully crafted residential spaces functional and stylish commercial
-                        interiors</p>
-                </div>
-                <!-- Section Title Content End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Our Project Nav start -->
-                <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
-                    <ul>
-                        <li><a href="#" class="active-btn" data-filter="*">all</a></li>
-                        <li><a href="#" data-filter=".architecture">architecture</a></li>
-                        <li><a href="#" data-filter=".interior">interior</a></li>
-                        <li><a href="#" data-filter=".bedroom">bedroom</a></li>
-                        <li><a href="#" data-filter=".furniture">furniture</a></li>
-                        <li><a href="#" data-filter=".kitchen">kitchen</a></li>
-                    </ul>
-                </div>
-                <!-- Our Project Nav End -->
-            </div>
-
-            <div class="col-lg-12">
-                <!-- Project Item Boxes start -->
-                <div class="row project-item-boxes align-items-center">
-                    <div class="col-md-6 project-item-box architecture bedroom">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp">
-                            <div class="project-image">
-                                <div class="project-featured-image">
-                                    <figure class="image-anime">
-                                        <img src="assets/images/project-1.jpg" alt="">
-                                    </figure>
-                                </div>
-
-                                <div class="project-btn">
-                                    <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="project-content">
-                                <h3>residential spaces</h3>
-                                <h2><a href="project-single.html">urban retreat: modern design meets comfort</a>
-                                </h2>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box interior kitchen">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="project-image">
-                                <div class="project-featured-image">
-                                    <figure class="image-anime">
-                                        <img src="assets/images/project-2.jpg" alt="">
-                                    </figure>
-                                </div>
-
-                                <div class="project-btn">
-                                    <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="project-content">
-                                <h3>luxury homes</h3>
-                                <h2><a href="project-single.html">luxurious loft: industrial chic for living</a>
-                                </h2>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box furniture architecture">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="project-image">
-                                <div class="project-featured-image">
-                                    <figure class="image-anime">
-                                        <img src="assets/images/project-3.jpg" alt="">
-                                    </figure>
-                                </div>
-
-                                <div class="project-btn">
-                                    <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="project-content">
-                                <h3>outdoor living spaces</h3>
-                                <h2><a href="project-single.html">coastal vibes: serenity by the sea</a></h2>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box kitchen bedroom">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <div class="project-featured-image">
-                                    <figure class="image-anime">
-                                        <img src="assets/images/project-4.jpg" alt="">
-                                    </figure>
-                                </div>
-
-                                <div class="project-btn">
-                                    <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="project-content">
-                                <h3>modern designs</h3>
-                                <h2><a href="project-single.html">minimalist haven: simple, clean, inviting
-                                        spaces</a></h2>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-                </div>
-                <!-- Project Item Boxes End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Our Project End -->
-
 <!-- How We Work Start -->
 <div class="how-we-work">
     <div class="container">
+
         <div class="row section-row align-items-center">
+
             <div class="col-lg-6">
-                <!-- Section Title Start -->
                 <div class="section-title dark-section">
-                    <h3 class="wow fadeInUp">how we work</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">From concept to completion in<span> our
-                            work</span></h2>
+                    <h3 class="wow fadeInUp">our process</h3>
+
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">
+                        From your vision to a
+                        <span>beautiful reality</span>
+                    </h2>
                 </div>
-                <!-- Section Title End -->
             </div>
 
             <div class="col-lg-6">
-                <!-- Section Title Content Start -->
                 <div class="section-title-content dark-section">
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">Our comprehensive approach guides you through each
-                        phase of the design process, from initial brainstorming and conceptualization.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">
+                        A thoughtful and transparent process that brings together
+                        creative design, premium materials and expert execution
+                        to create a space that feels uniquely yours.
+                    </p>
                 </div>
-                <!-- Section Title Content End -->
             </div>
+
         </div>
+
 
         <div class="row">
             <div class="col-lg-12">
-                <!-- How We Work List Start -->
+
                 <div class="how-we-work-list">
-                    <!-- How We Item Start -->
+
+                    <!-- Step 01 -->
                     <div class="how-we-work-item wow fadeInUp">
+
                         <div class="icon-box">
-                            <img src="assets/images/icon-how-we-work-1.svg" alt="">
+                            <img src="assets/images/work-process/wp-1.png"
+                                alt="Interior Consultation">
                         </div>
+
                         <div class="how-we-work-content">
-                            <h3>01. initial consultation</h3>
-                            <p>We start with a one-on meeting to understand your vision preferences and requirement.
+
+                            <h3>01. discover your vision</h3>
+
+                            <p>
+                                We begin by understanding your lifestyle,
+                                preferences, space and expectations to define
+                                the right design direction.
                             </p>
-                        </div>
-                    </div>
-                    <!-- How We Item End -->
 
-                    <!-- How We Item Start -->
-                    <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="icon-box">
-                            <img src="assets/images/icon-how-we-work-2.svg" alt="">
                         </div>
-                        <div class="how-we-work-content">
-                            <h3>02. design planning</h3>
-                            <p>This involves selecting materials, and layouts, furnishings, as well as creating 3D
-                                renderings.</p>
-                        </div>
-                    </div>
-                    <!-- How We Item End -->
 
-                    <!-- How We Item Start -->
-                    <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="icon-box">
-                            <img src="assets/images/icon-how-we-work-3.svg" alt="">
-                        </div>
-                        <div class="how-we-work-content">
-                            <h3>03. project execution</h3>
-                            <p>With the design plans in this place, we manage and coordinate all aspects of the
-                                projects.</p>
-                        </div>
                     </div>
-                    <!-- How We Item End -->
 
-                    <!-- How We Item Start -->
-                    <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+
+                    <!-- Step 02 -->
+                    <div class="how-we-work-item wow fadeInUp"
+                        data-wow-delay="0.2s">
+
                         <div class="icon-box">
-                            <img src="assets/images/icon-how-we-work-4.svg" alt="">
+                            <img src="assets/images/work-process/wp-2.png"
+                                alt="Interior Design Planning">
                         </div>
+
                         <div class="how-we-work-content">
-                            <h3>04. final review</h3>
-                            <p>After completing project we conduct a thorough walkthrough with you to review the
-                                space.</p>
+
+                            <h3>02. design & refine</h3>
+
+                            <p>
+                                From layouts and materials to colours,
+                                finishes and details, we develop a design
+                                tailored to your space and lifestyle.
+                            </p>
+
                         </div>
+
                     </div>
-                    <!-- How We Item End -->
+
+
+                    <!-- Step 03 -->
+                    <div class="how-we-work-item wow fadeInUp"
+                        data-wow-delay="0.4s">
+
+                        <div class="icon-box">
+                            <img src="assets/images/work-process/wp-3.png"
+                                alt="Interior Project Execution">
+                        </div>
+
+                        <div class="how-we-work-content">
+
+                            <h3>03. craft & execute</h3>
+
+                            <p>
+                                Our team coordinates production, installation
+                                and finishing with careful attention to
+                                quality, timelines and every detail.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Step 04 -->
+                    <div class="how-we-work-item wow fadeInUp"
+                        data-wow-delay="0.6s">
+
+                        <div class="icon-box">
+                            <img src="assets/images/work-process/wp-4.png"
+                                alt="Final Interior Review">
+                        </div>
+
+                        <div class="how-we-work-content">
+
+                            <h3>04. reveal your space</h3>
+
+                            <p>
+                                Once everything is complete, we review the
+                                finished space with you to ensure every detail
+                                meets the Interior Story standard.
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
-                <!-- How We Work List End -->
 
-                <!-- How Work Company Slider Start -->
+
+                <!-- Bottom Statement -->
                 <div class="how-work-company-slider">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <!-- Company Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="assets/images/company-logo-1.svg" alt="">
-                                </div>
-                            </div>
-                            <!-- Company Support Logo End -->
 
-                            <!-- Company Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="assets/images/company-logo-2.svg" alt="">
-                                </div>
-                            </div>
-                            <!-- Company Support Logo End -->
-
-                            <!-- Company Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="assets/images/company-logo-3.svg" alt="">
-                                </div>
-                            </div>
-                            <!-- Company Support Logo End -->
-
-                            <!-- Company Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="assets/images/company-logo-4.svg" alt="">
-                                </div>
-                            </div>
-                            <!-- Company Support Logo End -->
-
-                            <!-- Company Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="assets/images/company-logo-5.svg" alt="">
-                                </div>
-                            </div>
-                            <!-- Company Support Logo End -->
-
-                            <!-- Company Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="assets/images/company-logo-1.svg" alt="">
-                                </div>
-                            </div>
-                            <!-- Company Support Logo End -->
+                    <div class="row">
+                        <div class="col-md-8 mx-auto">
+                            <h2 class="text-center text-white mb-0">
+                                Thoughtful design. Refined details.
+                                Spaces made to feel truly yours, beautifully crafted to last.
+                            </h2>
                         </div>
                     </div>
                 </div>
-                <!-- How Work Company Slider End -->
             </div>
         </div>
     </div>
@@ -713,96 +528,73 @@ include('include/data.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <!-- Our Skill Content Start -->
                 <div class="our-skill-content">
-                    <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our skills</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Skills that shape your<span> dream
-                                home</span></h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our dedicated team of designers works closely
-                            with you to understand your vision and bring it to life with thoughtful attention to
-                            detail.</p>
+
+                        <h3 class="wow fadeInUp">our expertise</h3>
+
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Expertise that transforms your
+                            <span>everyday spaces</span>
+                        </h2>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            We combine thoughtful design, premium materials and refined craftsmanship
+                            to create interiors that balance beauty, functionality and your unique
+                            lifestyle.
+                        </p>
+
                     </div>
-                    <!-- Section Title End -->
 
-                    <!-- About SkillBar Start -->
-                    <div class="our-skillbar">
-                        <!-- Skills Progress Bar Start -->
-                        <div class="skills-progress-bar">
-                            <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="95%">
-                                <div class="skill-data">
-                                    <div class="skill-title">space planning and layout</div>
-                                    <div class="skill-no">95%</div>
-                                </div>
-                                <div class="skill-progress">
-                                    <div class="count-bar"></div>
-                                </div>
-                            </div>
-                            <!-- Skill Item End -->
-                        </div>
-                        <!-- Skills Progress Bar End -->
-
-                        <!-- Skills Progress Bar Start -->
-                        <div class="skills-progress-bar">
-                            <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="85%">
-                                <div class="skill-data">
-                                    <div class="skill-title">project challenges and solutions</div>
-                                    <div class="skill-no">85%</div>
-                                </div>
-                                <div class="skill-progress">
-                                    <div class="count-bar"></div>
-                                </div>
-                            </div>
-                            <!-- Skill Item End -->
-                        </div>
-                        <!-- Skills Progress Bar End -->
-
-                        <!-- Skills Progress Bar Start -->
-                        <div class="skills-progress-bar">
-                            <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="75%">
-                                <div class="skill-data">
-                                    <div class="skill-title">sustainability and eco-friendly features</div>
-                                    <div class="skill-no">75%</div>
-                                </div>
-                                <div class="skill-progress">
-                                    <div class="count-bar"></div>
-                                </div>
-                            </div>
-                            <!-- Skill Item End -->
-                        </div>
-                        <!-- Skills Progress Bar End -->
+                    <div class="project-entry">
+                        <ul class="wow fadeInUp" data-wow-delay="0.4s">
+                            <li>
+                                Bespoke kitchens and wardrobes are designed to maximize storage
+                                while maintaining a refined aesthetic.
+                            </li>
+                            <li>
+                                Carefully selected materials, finishes and lighting create
+                                warmth, depth and character throughout every space.
+                            </li>
+                            <li>
+                                Every detail is thoughtfully coordinated to deliver interiors
+                                that feel elegant, functional and distinctly personal.
+                            </li>
+                        </ul>
                     </div>
-                    <!-- About SkillBar End -->
+                    <div>
+                        <a href="contact-us.php" class="btn-default">
+                            Get an Appointment
+                        </a>
+                    </div>
                 </div>
-                <!-- Our Skill Content End -->
             </div>
 
             <div class="col-lg-6">
-                <!-- Our Skill Image Start -->
                 <div class="our-skill-image">
+
                     <div class="our-skill-img-1">
                         <figure class="image-anime reveal">
-                            <img src="assets/images/our-skill-img-1.jpg" alt="">
+                            <img src="assets/images/our-skill-img-1.jpg"
+                                alt="Bespoke Interior Design">
                         </figure>
                     </div>
 
                     <div class="our-skill-img-2">
                         <figure class="image-anime reveal">
-                            <img src="assets/images/our-skill-img-2.jpg" alt="">
+                            <img src="assets/images/our-skill-img-2.jpg"
+                                alt="Premium Interior Details">
                         </figure>
                     </div>
 
                     <div class="our-skill-img-3">
                         <figure class="image-anime reveal">
-                            <img src="assets/images/our-skill-img-3.jpg" alt="">
+                            <img src="assets/images/our-skill-img-3.jpg"
+                                alt="Luxury Interior Craftsmanship">
                         </figure>
                     </div>
+
                 </div>
-                <!-- Our Skill Image End -->
             </div>
         </div>
     </div>
@@ -814,31 +606,26 @@ include('include/data.php');
     <div class="container-fluid">
         <div class="row no-gutters">
             <div class="col-lg-6">
-                <!-- Our Testimonial Image Start -->
                 <div class="our-testimonials-image">
                     <figure class="image-anime">
                         <img src="assets/images/testimonial-img.jpg" alt="">
                     </figure>
                 </div>
-                <!-- Our Testimonial Image End -->
             </div>
 
             <div class="col-lg-6">
-                <!-- Our Testimonial Content Start -->
                 <div class="our-testimonial-content">
-                    <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">client testimonials</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Trusted by thousand of <span>people &
-                                companies.</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Spaces loved by
+                            <span>our clients.</span>
+                        </h2>
                     </div>
-                    <!-- Section Title End -->
-
-                    <!-- Testimonial Slider Start -->
                     <div class="testimonial-slider">
                         <div class="swiper">
                             <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
+                                <!-- Testimonial 01 -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-rating">
@@ -850,27 +637,29 @@ include('include/data.php');
                                         </div>
                                         <div class="testimonial-body">
                                             <div class="testimonial-content">
-                                                <p>I couldn't be happier with the transformation of my home! From
-                                                    our very first consultation, the team at took the time to
-                                                    understand my vision and preferences.</p>
+                                                <p>
+                                                    The Interior Story transformed our home beautifully.
+                                                    From the modular kitchen to the wardrobe, every detail
+                                                    was thoughtfully planned and executed with great
+                                                    attention to quality and finish.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="assets/images/author-1.jpg" alt="">
+                                                    <img src="assets/images/user-icon.png"
+                                                        alt="Client testimonial">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>arlene mcCoy</h3>
-                                                <p>co. founder</p>
+                                                <h3>Priya Mehta</h3>
+                                                <p>Homeowner, Gurugram</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
+                                <!-- Testimonial 02 -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-rating">
@@ -881,48 +670,63 @@ include('include/data.php');
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="testimonial-content">
-                                            <p>I couldn't be happier with the transformation of my home! From our
-                                                very first consultation, the team at took the time to understand my
-                                                vision and preferences.</p>
+                                            <p>
+                                                We loved the entire experience with The Interior Story.
+                                                Their team understood our requirements perfectly and
+                                                created a stylish TV unit and living space that feels
+                                                elegant, warm and completely personal.
+                                            </p>
                                         </div>
                                         <div class="testimonial-body">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="assets/images/author-1.jpg" alt="">
+                                                    <img src="assets/images/user-icon.png"
+                                                        alt="Client testimonial">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>arlene mcCoy</h3>
-                                                <p>co founder</p>
+                                                <h3>Rahul Sharma</h3>
+                                                <p>Homeowner, Gurugram</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
+                                <!-- Testimonial 03 -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>
+                                                What stood out was their attention to detail. The
+                                                wardrobe design, materials and finishing were exactly
+                                                what we wanted. The team made the entire process
+                                                smooth, professional and stress-free.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="assets/images/user-icon.png"
+                                                        alt="Client testimonial">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3>Ananya Kapoor</h3>
+                                                <p>Homeowner, Delhi NCR</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Testimonial Slider End -->
-
-                    <!-- Testimonial Rating Counter Start -->
-                    <div class="testimonial-rating-counter">
-                        <div class="rating-counter">
-                            <h2><span class="counter">4.82</span></h2>
-                        </div>
-                        <div class="testimonial-rating-content">
-                            <div class="testimonial-client-rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p>2,488 reviews</p>
-                        </div>
-                    </div>
-                    <!-- Testimonial Rating Counter End -->
                 </div>
-                <!-- Our Testimonial Content End -->
             </div>
         </div>
     </div>
@@ -934,129 +738,139 @@ include('include/data.php');
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-6">
-                <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">latest news</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Your guide to</span> inspired
-                        interiors</h2>
+                    <h3 class="wow fadeInUp">design journal</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">
+                        <span>Ideas for</span> inspired living
+                    </h2>
                 </div>
-                <!-- Section Title End -->
             </div>
 
+
             <div class="col-lg-6">
-                <!-- Section Title Content Start -->
                 <div class="section-title-content">
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">Your journey to inspired interiors begins here.
-                        Our blog offers a wealth of resources, including design tips, trend analyses.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">
+                        Explore thoughtful ideas, timeless design inspiration and
+                        practical tips to help you create interiors that feel
+                        elegant, functional and truly personal.
+                    </p>
                 </div>
-                <!-- Section Title Content End -->
             </div>
         </div>
 
+
         <div class="row">
             <div class="col-lg-4 col-md-6">
-                <!-- Post Item Start -->
                 <div class="post-item wow fadeInUp">
-                    <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure>
-                            <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                <img src="assets/images/post-1.jpg" alt="">
+                            <a href="blog.php"
+                                class="image-anime"
+                                data-cursor-text="View">
+
+                                <img src="assets/images/post-1.jpg"
+                                    alt="Modern Modular Kitchen Design">
                             </a>
                         </figure>
                     </div>
-                    <!-- Post Featured Image End -->
 
-                    <!-- Post Item Body Start -->
                     <div class="post-item-body">
-                        <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h3><a href="blog-single.html">How Does One Go About a Buying Furniture?</a></h3>
+                            <h3>
+                                <a href="blog.php">
+                                    How to Design a Modular Kitchen That Works Beautifully
+                                </a>
+                            </h3>
                         </div>
-                        <!-- Post Item Content End -->
 
-                        <!-- Blog Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="blog-single.html" class="post-btn">read more</a>
+
+                            <a href="blog.php"
+                                class="post-btn">
+                                read more
+                            </a>
+
                         </div>
-                        <!-- Blog Item Button End -->
                     </div>
-                    <!-- Post Item Body End -->
                 </div>
-                <!-- Post Item End -->
             </div>
+
 
             <div class="col-lg-4 col-md-6">
-                <!-- Post Item Start -->
-                <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
-                    <!-- Post Featured Image Start-->
+                <div class="post-item wow fadeInUp"
+                    data-wow-delay="0.2s">
                     <div class="post-featured-image">
                         <figure>
-                            <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                <img src="assets/images/post-2.jpg" alt="">
+                            <a href="blog.php"
+                                class="image-anime"
+                                data-cursor-text="View">
+                                <img src="assets/images/post-2.jpg"
+                                    alt="Luxury Wardrobe Interior Design">
                             </a>
                         </figure>
                     </div>
-                    <!-- Post Featured Image End -->
 
-                    <!-- Post Item Body Start -->
+
                     <div class="post-item-body">
-                        <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h3><a href="blog-single.html">Innovative Décor Ideas Shaping Homes Today</a></h3>
+                            <h3>
+                                <a href="blog.php">
+                                    Smart Wardrobe Ideas for Elegant, Clutter-Free Spaces
+                                </a>
+                            </h3>
                         </div>
-                        <!-- Post Item Content End -->
-
-                        <!-- Blog Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="blog-single.html" class="post-btn">read more</a>
+                            <a href="blog.php"
+                                class="post-btn">
+                                read more
+                            </a>
                         </div>
-                        <!-- Blog Item Button End -->
                     </div>
-                    <!-- Post Item Body End -->
                 </div>
-                <!-- Post Item End -->
             </div>
+
 
             <div class="col-lg-4 col-md-6">
-                <!-- Post Item Start -->
-                <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
-                    <!-- Post Featured Image Start-->
+
+                <div class="post-item wow fadeInUp"
+                    data-wow-delay="0.4s">
                     <div class="post-featured-image">
                         <figure>
-                            <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                <img src="assets/images/post-3.jpg" alt="">
+                            <a href="blog.php"
+                                class="image-anime"
+                                data-cursor-text="View">
+                                <img src="assets/images/post-3.jpg"
+                                    alt="Designer Wall Panelling Ideas">
                             </a>
                         </figure>
                     </div>
-                    <!-- Post Featured Image End -->
-
-                    <!-- Post Item Body Start -->
                     <div class="post-item-body">
-                        <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h3><a href="blog-single.html">Design Industry Updates You Should Know About</a></h3>
+                            <h3>
+                                <a href="blog.php">
+                                    Wall Panelling Ideas That Add Character to Your Home
+                                </a>
+                            </h3>
                         </div>
-                        <!-- Post Item Content End -->
-
-                        <!-- Blog Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="blog-single.html" class="post-btn">read more</a>
+                            <a href="blog.php"
+                                class="post-btn">
+                                read more
+                            </a>
                         </div>
-                        <!-- Blog Item Button End -->
                     </div>
-                    <!-- Post Item Body End -->
                 </div>
-                <!-- Post Item End -->
             </div>
 
-            <div class="col-lg-12">
-                <!-- Our Blog Footer Start -->
-                <div class="our-blog-footer wow fadeInUp" data-wow-delay="0.6s">
-                    <a href="blog.html" class="btn-default">See All Blogs</a>
+            <!-- <div class="col-lg-12">
+                <div class="our-blog-footer wow fadeInUp"
+                    data-wow-delay="0.6s">
+                    <a href="blog.php"
+                        class="btn-default">
+                        Explore All Stories
+                    </a>
                 </div>
-                <!-- Our Blog Footer End -->
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

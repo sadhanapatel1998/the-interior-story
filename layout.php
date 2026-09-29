@@ -133,6 +133,49 @@
 
         });
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            const header = document.querySelector(".header-sticky");
+
+            if (!header) return;
+
+            let lastScrollTop = 0;
+
+            window.addEventListener("scroll", function() {
+
+                const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+                // Activate sticky header after scrolling
+                if (currentScroll > 100) {
+
+                    // Scrolling down
+                    if (currentScroll > lastScrollTop) {
+                        header.classList.remove("active");
+                        header.classList.add("hide");
+                    }
+
+                    // Scrolling up
+                    else {
+                        header.classList.remove("hide");
+                        header.classList.add("active");
+                    }
+
+                } else {
+
+                    // At top of page
+                    header.classList.remove("active");
+                    header.classList.remove("hide");
+                }
+
+                lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+
+            }, {
+                passive: true
+            });
+
+        });
+    </script>
 </body>
 
 </html>
